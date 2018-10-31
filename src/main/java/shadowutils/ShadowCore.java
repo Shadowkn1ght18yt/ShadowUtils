@@ -1,16 +1,16 @@
-package com.example.examplemod;
+package shadowutils;
 
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
-public class ExampleMod
+@Mod(modid = ShadowCore.MODID, version = ShadowCore.VERSION)
+public class ShadowCore
 {
     public static final String MODID = "examplemod";
     public static final String VERSION = "1.0";
-    
+
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
